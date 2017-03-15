@@ -1,0 +1,45 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+
+
+
+#accordion {
+	background-color: white;
+	width: 500px;
+	border: 2px solid rgb(0,184,200);
+
+
+}
+.header {
+	background-color: rgb(0,198,214);
+	padding-left: 10px;
+	margin:0;
+	color: white;
+	font-size: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 15px;
+	border: 2px solid rgb(0,184,200);
+
+}
+
+#section2{
+	transition: 2s;
+	
+}
+#section2:hover {
+	height:50px;
+}
+#section1:hover {
+	height:50px;
+}
+p {
+	color: rgb(118,117,115);
+	font-size: 15px;
+	padding-left:10px; 
+	padding-right:15px;
+	padding-bottom: 5px;
+	padding-top:10px;
+}
+}
